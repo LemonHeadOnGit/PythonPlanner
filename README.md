@@ -8,6 +8,7 @@ A week, originally BetterTimetable // Alpha 2 was going to release at the end of
 Update Board:
 ===> BetterTimetable 0.2 Preview branch added, EXTREMELY unstable.
 ===> 0.2 Delayed a week.
+===> Major breakthroughs and progress, we're getting there
 ```
 # Updated alot (kinda).
 There's alot missing, so there's alot to add! Although not daily, BetterTimetable is being updated on that constant basis teo make sure that **eventually** it's more convenient to use than pulling your timetable.
