@@ -1,16 +1,11 @@
-# BetterTimetable
-A simple Python program that helps you track your timetable. Initially this was just a small idea I had, but I've decided to scale it up a bit adding new features over the course of time. At it's current state it's extremely basic, and doesn't even track things, yet.
-## A better way to track your timetable.
-BetterTimetable is made with the goal of tracking the things you do throughout the day, timetable or just a daily schedule. While it was made with timetables in mind, a future to include just tracking hobbies, exercise and pretty much anything you gotta keep track of is coming.
-## Version 0.2 has been delayed.
-A week, originally BetterTimetable // Alpha 2 was going to release at the end of release, it's been a busy week and the time I've spent on trying to get this update out has been, challenging to say the least. It's gotten overcomplicated and I've decided to start over again, but alot of progress has still techincally been made. Even if it has not shown up in the release, let's get this done.
-```markdown
-Update Board:
-===> BetterTimetable 0.2 Preview branch added, EXTREMELY unstable.
-===> 0.2 Delayed a week.
-===> Major breakthroughs and progress, we're getting there
-```
-# Updated alot (kinda).
-There's alot missing, so there's alot to add! Although not daily, BetterTimetable is being updated on that constant basis teo make sure that **eventually** it's more convenient to use than pulling your timetable.
-# Very Early in Development
-Bugs and a *severe* lack of features should be expected.
+# PythonPlanner
+<p align="center"><img src="https://img.shields.io/badge/Version-v0.1.2rc1-informational?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Builds-N/A-important?style=for-the-badge" /> </p>
+  
+## What is PythonPlanner
+
+**PythonPlanner** is a redo of a friends' python project, _BetterTimeTable_. This redo aims to improve on some programming concepts as well as implement some more features. I understand that the original wasn't even finished, but still :). Also, the original was more of an actual school timetable thing rather than a planner.
+
+## What features are going to be included in this redo?
+
+(AS OF WRITING) I aim to include some time modules for better time management, as well as a proper config file. What I also aim to do is allow functionality to switch between the timetable mode, and the planner mode.
