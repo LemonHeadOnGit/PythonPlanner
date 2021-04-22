@@ -1,3 +1,3 @@
 # Uh huh not needed
 *.txt
-__pycache__/
+__*__/

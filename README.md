@@ -6,7 +6,7 @@
 
 ## What is PythonPlanner
 
-**PythonPlanner** is a redo of a friends' python project, _BetterTimeTable_. This redo aims to improve on some programming concepts as well as implement some more features. I understand that the original wasn't even finished, but still :). Also, the original was more of an actual school timetable thing rather than a planner.
+**PythonPlanner** is a redo of a friends' python project, _BetterTimeTable_. This redo aims to improve on some programming concepts as well as implement some more features. I understand that the original wasn't even finished, but still :). Also, the original was more of an actual school timetable rather than a planner.
 
 ## What features are going to be included in this redo?
 
