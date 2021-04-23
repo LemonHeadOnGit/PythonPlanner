@@ -1,7 +1,7 @@
 #   File for the calling of text-based menus.
 #   This is gonna be fun~
 
-#   ///DEFINE VARIOUS TYPES OF MENUS
+#   /// DEFINE VARIOUS TYPES OF MENUS
 
 def mnPrompt(name,msg): # This is a generic prompt menu.
     print("=====",name,"=====\n")
@@ -16,3 +16,8 @@ def mnLaunch(TiPl): # This is the launch menu.
     config.close()
     choice = input("\nCHOICE: ")
     return choice
+
+def mnOpen():
+    print("===== SPECIFY THE FILENAME AND PATH TO THE PLANNER.TXT FILE =====\n")
+    dir = input("DIRECTORY: ")
+    return dir

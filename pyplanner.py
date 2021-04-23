@@ -72,6 +72,8 @@ while True:
     elif choice == 2:
         os.system('clear')
         print("ENTERING OPEN MENU...")
+        time.sleep(1)
+        dir = mnOpen()
 
     elif choice == 3:
         os.system('clear')
