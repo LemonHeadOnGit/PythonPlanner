@@ -54,7 +54,7 @@ if fExist == False:
 TP = linecache.getline('config.txt', 2)
 print(TP)
 time.sleep(1)
-if TP == "P":
+if TP in ["P","p"]:
     TiPl = "PLANNER"
 
 #   /// COMPUTE CHOICES
