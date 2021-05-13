@@ -1,3 +1,4 @@
 # Uh huh not needed
 *.txt
 __*__/
+test_functions.py

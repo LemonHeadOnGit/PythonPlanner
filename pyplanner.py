@@ -18,7 +18,9 @@ fExist = True
 TP = "T"
 TiPl = "TIMETABLE"
 choice = 0
-clr = os.system('cls' if os.name == 'nt' else 'clear')
+if os.name == 'nt':
+    clr = 'cls'
+else: clr = 'clear'
 
 #   /// WRITE TO (OR CREATE) CONFIG FILE
 
@@ -32,7 +34,6 @@ else:
 #   /// PROCEED WITH PLANNER SETUP (IF ABOVE CHECK RETURNS FALSE)
 
 if fExist == False:
-    clr
     cfgpar = input("Would you like the Normal [N] or (INDEV) Clear [C] view?\n=====\nCHOICE: ")
     print("=====\n")
     if cfgpar not in ["N","n","C","c"]:
@@ -61,23 +62,23 @@ if TP in ["P","p"]:
 #   /// COMPUTE CHOICES
 
 while True:
-    clr
+    os.system(clr)
     choice = mnLaunch(TiPl)
     choice = int(choice)
 
     if choice == 1:
-        clr
+        os.system(clr)
         print("-----UNDER CONSTRUCTION, RETURNING TO MENU-----")
         time.sleep(1)
     
     elif choice == 2:
-        clr
+        os.system(clr)
         print("ENTERING OPEN MENU...")
         time.sleep(1)
         dir = mnOpen()
 
     elif choice == 3:
-        clr
+        os.system(clr)
         print("CLEARING CONFIG FILE...\n")
         rm("config.txt")
         time.sleep(0.5)
@@ -85,21 +86,21 @@ while True:
         time.sleep(1)
         print("=== EXITING ===")
         time.sleep(0.3)
-        clr
+        os.system(clr)
         break
 
     elif choice == 4:
-        clr
+        os.system(clr)
         yn = mnPrompt("WARNING","Are you sure you want to exit the script? [Y/N]")
         if yn in ["Y","y"]:
-            clr
+            os.system(clr)
             break
         else:
-            clr 
+            os.system(clr) 
             continue
 
     else:
-        clr
+        os.system(clr)
         print("! Choice invalid, please try again !")   #100
         time.sleep(1)
         
