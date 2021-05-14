@@ -1,10 +1,8 @@
 #   File for the calling of text-based menus.
 #   This is gonna be fun~
 
-#   /// DEFINE VARIOUS TYPES OF MENUS
-
-def mnPrompt(name,msg): # This is a generic prompt menu.
-    print("=====",name,"=====\n")
+def mnPrompt(title,msg): # This is a generic prompt menu.
+    print("=====",title,"=====\n")
     print(msg+"\n")
     choice = input("CHOICE: ")
     return choice
