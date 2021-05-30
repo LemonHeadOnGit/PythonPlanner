@@ -22,3 +22,5 @@ def mnOpen():
     print("===== SPECIFY THE FILENAME AND PATH TO THE PLANNER.TXT FILE =====\n")
     dir = input("DIRECTORY: ")
     return dir
+
+print("Looks like you didn't run pyplanner.py. What're we gonna do about that now huh?")

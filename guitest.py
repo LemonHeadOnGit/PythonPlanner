@@ -42,3 +42,5 @@ def window():
     win = MyWindow()
     win.show()
     sys.exit(app.exec_())
+
+print("Looks like you didn't run pyplanner.py. What're we gonna do about that now huh?")
