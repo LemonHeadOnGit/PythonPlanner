@@ -2,3 +2,4 @@
 *.txt
 __*__/
 test_functions.py
+.vscode/
