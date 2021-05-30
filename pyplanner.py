@@ -9,6 +9,7 @@ import datetime
 import time
 import linecache
 from menus import *
+import guitest
 
 #   /// CREATE VARIABLES NEEDED
 
@@ -76,6 +77,7 @@ while True:
         print("ENTERING OPEN MENU...")
         time.sleep(1)
         dir = mnOpen()
+        guitest.window()
 
     elif choice == 3:
         os.system(clr)
@@ -101,6 +103,6 @@ while True:
 
     else:
         os.system(clr)
-        print("! Choice invalid, please try again !")   #100
+        print("! Choice invalid, please try again !")
         time.sleep(1)
         
