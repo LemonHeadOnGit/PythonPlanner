@@ -77,7 +77,7 @@ while True:
         print("ENTERING OPEN MENU...")
         time.sleep(1)
         dir = mnOpen()
-        guitest.window()
+        guitest.wdwProg()
 
     elif choice == 3:
         os.system(clr)
