@@ -68,6 +68,6 @@ def wdwProg():
     win.show()
     sys.exit(app.exec_())
 
-print("Looks like you didn't run pyplanner.py. What're we gonna do about that now huh?")
-
-wdwProg()
+# print("Looks like you didn't run pyplanner.py. What're we gonna do about that now huh?")
+# print('Asshole itch')
+# wdwProg()

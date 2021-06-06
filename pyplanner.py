@@ -11,6 +11,7 @@ import linecache
 from menus import *
 import guitest
 
+
 #   /// CREATE VARIABLES NEEDED
 
 f = os.path.isfile
@@ -52,15 +53,17 @@ if fExist == False:
     
     config.close()
 
-#   /// DO SOME THINGS
+#   /// DO SOME THINGS ///
 
-TP = linecache.getline('config.txt', 2)
+TP = linecache.getline('config.txt', 2) # DEFINE
 print(TP)
 time.sleep(1)
-if TP in ["P","p"]:
+# TP has full line + place valuse, push1st index to compare chars =
+
+if TP.capitalize()[0] == "P":
     TiPl = "PLANNER"
 
-#   /// COMPUTE CHOICES
+#   /// COMPUTE CHOICES ///
 
 while True:
     os.system(clr)
