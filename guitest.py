@@ -1,3 +1,6 @@
+r"""
+Various tests for the PyQt5 modules and submodules.
+"""
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QProgressBar, QPushButton
 import sys
@@ -67,7 +70,3 @@ def wdwProg():
     win = MyWindow()
     win.show()
     sys.exit(app.exec_())
-
-# print("Looks like you didn't run pyplanner.py. What're we gonna do about that now huh?")
-# print('Asshole itch')
-# wdwProg()
