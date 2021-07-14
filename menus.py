@@ -1,6 +1,8 @@
 #   File for the calling of text-based menus.
 #   This is gonna be fun~
 
+from termcolor import colored
+
 def mnPrompt(title,msg):
     """A generic prompt menu"""
     print("=====",title,"=====\n")
@@ -10,7 +12,9 @@ def mnPrompt(title,msg):
 
 def mnLaunch(TiPl):
     """The launch menu"""
-    print("╔═══════════════╗\n║ PYTHONPLANNER ║\n╚═══════════════╝")
+    print(colored("╔═══════════════╗","red"))
+    print(colored("║ PYTHONPLANNER ║","green"))
+    print(colored("╚═══════════════╝","blue"))
     config = open("config.txt", "r")
     print("===== MENU =====\n\n[1] CREATE NEW", TiPl, "\n[2] OPEN", TiPl, "\n[3] EDIT CONFIG FILE\n[4] EXIT")
     config.close()

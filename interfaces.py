@@ -1,4 +1,4 @@
-"""
+r"""
 FILE CONTAINS:
     - CLI interfaces for any of the submenus (FOR WHEN CLI MODE IS CHOSEN).
     - GUI interfaces for any of the submenus (FOR WHEN GUI MODE IS CHOSEN).
@@ -57,7 +57,13 @@ class MyWindow(QMainWindow):
 
         # Title label
         self.labelTitle = QLabel(self)
-        self.labelTitle.setText("You are in", TiPl, "mode.")
+        if TiPl[0] == "T":
+            self.labelTitle.setText("You are in Timetable mode.")
+        elif TiPl[0] == "P":
+            self.labelTitle.setText("You are in Planner mode.")
+        else: self.labelTitle.setText("Broken code, please fix arigatou")
+        self.labelTitle.move(50, 35)
+        self.labelTitle.adjustSize()
 
         # Button
         self.b1 = QPushButton(self)

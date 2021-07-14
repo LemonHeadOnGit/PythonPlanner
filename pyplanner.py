@@ -10,9 +10,6 @@ import os
 import datetime
 import time
 import linecache
-from menus import *
-from interfaces import *
-
 
 #   /// CREATE VARIABLES NEEDED
 
@@ -57,6 +54,9 @@ if fExist == False:
     config.close()
 
 #   /// DO SOME THINGS ///
+
+from menus import *
+from interfaces import *
 
 #   NB FOR FUTURE PRACTICES: When reading a char from a config file, call that SPECIFIC character
 #                          : location, even if the line only contains 1 character.
